@@ -1,0 +1,32 @@
+table, tr,td,th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    background-color: #65A;
+    color: white
+}
+
+tr:nth-child(even){
+    background-color: rgb(210, 231, 231);
+}
+
+caption{
+    caption-side: top;
+    font-style: italic;
+    color: #687280
+}
+
+tr:hover{
+    background:red;
+    cursor: pointer;
+}
